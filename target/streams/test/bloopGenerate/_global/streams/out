@@ -1,0 +1,4 @@
+[debug] [bomberman-test] Classpath dependencies List()
+[debug] [bomberman-test] Dependencies from configurations List(bomberman)
+[debug] Bloop wrote the configuration of project 'bomberman-test' to '/home/marttave/projects/bomberman/.bloop/bomberman-test.json'
+[success] Generated .bloop/bomberman-test.json

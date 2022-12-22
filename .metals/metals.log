@@ -1,0 +1,775 @@
+2022.12.22 14:58:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/lsp.trace.json or /home/marttave/.cache/metals/lsp.trace.json[0m
+2022.12.22 14:58:21 INFO  logging to file /home/marttave/projects/bomberman/.metals/metals.log[0m
+2022.12.22 14:58:21 INFO  Started: Metals version 0.11.9 in workspace '/home/marttave/projects/bomberman' for client Visual Studio Code 1.74.2.[0m
+2022.12.22 14:58:21 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(11), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)[0m
+2022.12.22 14:58:22 INFO  time: initialize in 0.69s[0m
+2022.12.22 14:58:23 WARN  Build server is not auto-connectable.[0m
+2022.12.22 14:58:23 WARN  no build target for: /home/marttave/projects/bomberman/build.sbt[0m
+2022.12.22 14:58:27 INFO  no build target found for /home/marttave/projects/bomberman/build.sbt. Using presentation compiler with project's scala-library version: 3.2.0[0m
+2022.12.22 14:58:27 WARN  no build target for: /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 14:58:28 INFO  time: code lens generation in 1.14s[0m
+2022.12.22 14:58:28 INFO  time: code lens generation in 1.13s[0m
+2022.12.22 15:01:50 WARN  no build target for: /home/marttave/projects/bomberman/build.sbt[0m
+2022.12.22 15:03:24 WARN  no build target for: /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:03:30 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals12953422876298120630/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.12.22 15:03:30 WARN  no build target for: /home/marttave/projects/bomberman/project/metals.sbt[0m
+2022.12.22 15:03:30 WARN  no build target for: /home/marttave/projects/bomberman/project/project/metals.sbt[0m
+2022.12.22 15:03:30 INFO  skipping build import with status 'Started'[0m
+2022.12.22 15:03:31 INFO  [info] welcome to sbt 1.7.3 (Ubuntu Java 11.0.17)[0m
+2022.12.22 15:03:33 INFO  [info] loading settings for project bomberman-build-build from metals.sbt ...[0m
+2022.12.22 15:03:33 INFO  [info] loading project definition from /home/marttave/projects/bomberman/project/project[0m
+2022.12.22 15:03:36 INFO  [info] loading settings for project bomberman-build from metals.sbt ...[0m
+2022.12.22 15:03:36 INFO  [info] loading project definition from /home/marttave/projects/bomberman/project[0m
+2022.12.22 15:03:38 INFO  [success] Generated .bloop/bomberman-build.json[0m
+2022.12.22 15:03:38 INFO  [success] Total time: 2 s, completed Dec 22, 2022, 3:03:38 PM[0m
+2022.12.22 15:03:39 INFO  [info] loading settings for project bomberman from build.sbt ...[0m
+2022.12.22 15:03:39 INFO  [info] set current project to hello-world (in build file:/home/marttave/projects/bomberman/)[0m
+2022.12.22 15:03:39 INFO  [success] Generated .bloop/bomberman.json[0m
+2022.12.22 15:03:39 INFO  [success] Generated .bloop/bomberman-test.json[0m
+2022.12.22 15:03:39 INFO  [success] Total time: 0 s, completed Dec 22, 2022, 3:03:39 PM[0m
+2022.12.22 15:03:40 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+2022.12.22 15:03:40 INFO  Attempting to connect to the build server...[0m
+2022.12.22 15:03:40 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/marttave/.bloop/bloop.json[0m
+2022.12.22 15:03:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/bsp.trace.json or /home/marttave/.cache/metals/bsp.trace.json[0m
+2022.12.22 15:03:42 INFO  Attempting to connect to the build server...[0m
+2022.12.22 15:03:42 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/marttave/.bloop/bloop.json[0m
+2022.12.22 15:03:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/project/.metals/bsp.trace.json or /home/marttave/.cache/metals/bsp.trace.json[0m
+2022.12.22 15:03:42 INFO  time: Connected to build server in 2.48s[0m
+2022.12.22 15:03:42 INFO  Connected to Build server: Bloop v1.5.4[0m
+2022.12.22 15:03:42 INFO  time: Imported build in 0.1s[0m
+2022.12.22 15:03:44 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.12.22 15:03:46 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.12.22 15:03:46 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2022.12.22 15:03:46 INFO  time: indexed workspace in 3.77s[0m
+2022.12.22 15:03:47 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:03:49 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.9' (since 6.843s)[0m
+2022.12.22 15:03:49 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:03:51 INFO  time: compiled bomberman in 1.46s[0m
+2022.12.22 15:03:54 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.9' (since 11.73s)[0m
+2022.12.22 15:03:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2022.12.22 15:03:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2022.12.22 15:03:54 INFO  Starting debug proxy for [Main][0m
+2022.12.22 15:03:54 INFO  Trying to attach to remote debuggee VM localhost:55003 .[0m
+2022.12.22 15:03:54 INFO  Attaching to debuggee VM succeeded.[0m
+2022.12.22 15:03:54 INFO  Canceling debug proxy for [Main][0m
+2022.12.22 15:03:55 INFO  Closing debug server tcp://0.0.0.0:33801[0m
+2022.12.22 15:06:32 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:06:32 INFO  time: compiled bomberman in 0.21s[0m
+2022.12.22 15:07:32 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:07:32 INFO  time: compiled bomberman in 82ms[0m
+2022.12.22 15:07:56 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:07:56 INFO  time: compiled bomberman in 0.12s[0m
+Dec 22, 2022 3:09:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 364
+Dec 22, 2022 3:09:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 362
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 39, 39, 46)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 45, 45, 53)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 45, 45, 60)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 45, 45, 53)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[Int]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 45, 45, 55)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[Int]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 45, 45, 55)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[Int]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 45, 45, 55)
+2022.12.22 15:09:27 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:09:27 INFO  time: compiled bomberman in 0.7s[0m
+2022.12.22 15:09:27 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:09:28 INFO  time: compiled bomberman in 0.38s[0m
+2022.12.22 15:09:28 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:09:28 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:09:28 INFO  time: compiled bomberman in 0.3s[0m
+2022.12.22 15:10:23 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:10:23 INFO  time: compiled bomberman in 0.1s[0m
+2022.12.22 15:10:49 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:10:49 INFO  time: compiled bomberman in 55ms[0m
+2022.12.22 15:10:52 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:10:52 INFO  time: compiled bomberman in 48ms[0m
+2022.12.22 15:10:54 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:10:54 INFO  time: compiled bomberman in 44ms[0m
+2022.12.22 15:11:53 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:11:53 INFO  time: compiled bomberman in 0.5s[0m
+2022.12.22 15:12:06 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:12:06 INFO  time: compiled bomberman in 0.86s[0m
+Dec 22, 2022 3:12:07 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.12.22 15:12:27 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:12:27 INFO  time: compiled bomberman in 0.48s[0m
+Dec 22, 2022 3:13:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 989
+2022.12.22 15:13:17 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:13:17 INFO  time: compiled bomberman in 0.46s[0m
+2022.12.22 15:13:40 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:13:40 INFO  time: compiled bomberman in 0.5s[0m
+Dec 22, 2022 3:14:01 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 22, 2022 3:14:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Dec 22, 2022 3:14:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1229
+2022.12.22 15:14:55 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:14:55 INFO  time: compiled bomberman in 93ms[0m
+2022.12.22 15:15:19 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:15:19 INFO  time: compiled bomberman in 0.64s[0m
+2022.12.22 15:15:21 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:15:21 INFO  time: compiled bomberman in 0.44s[0m
+2022.12.22 15:15:39 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:15:39 INFO  time: compiled bomberman in 0.53s[0m
+2022.12.22 15:15:44 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:15:44 INFO  time: compiled bomberman in 68ms[0m
+2022.12.22 15:16:10 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:16:10 INFO  time: compiled bomberman in 65ms[0m
+2022.12.22 15:16:23 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:16:23 INFO  time: compiled bomberman in 0.53s[0m
+2022.12.22 15:16:53 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:16:53 INFO  time: compiled bomberman in 65ms[0m
+2022.12.22 15:16:53 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:16:54 INFO  time: compiled bomberman in 0.48s[0m
+2022.12.22 15:17:04 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:17:04 INFO  time: compiled bomberman in 0.46s[0m
+Dec 22, 2022 3:17:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1931
+2022.12.22 15:18:19 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:18:19 INFO  time: compiled bomberman in 84ms[0m
+2022.12.22 15:18:23 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:18:23 INFO  time: compiled bomberman in 76ms[0m
+2022.12.22 15:18:39 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:18:39 INFO  time: compiled bomberman in 58ms[0m
+2022.12.22 15:18:39 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:18:41 INFO  time: compiled bomberman in 0.48s[0m
+2022.12.22 15:20:37 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:20:37 INFO  time: compiled bomberman in 0.49s[0m
+2022.12.22 15:20:40 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:20:40 INFO  time: compiled bomberman in 0.52s[0m
+Dec 22, 2022 3:20:56 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 22, 2022 3:20:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Dec 22, 2022 3:21:04 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+2022.12.22 15:21:14 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:21:14 INFO  time: compiled bomberman in 0.11s[0m
+2022.12.22 15:21:33 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:21:33 INFO  time: compiled bomberman in 51ms[0m
+2022.12.22 15:21:46 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:21:46 INFO  time: compiled bomberman in 35ms[0m
+2022.12.22 15:21:51 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:21:51 INFO  time: compiled bomberman in 99ms[0m
+2022.12.22 15:21:51 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:21:51 INFO  time: compiled bomberman in 80ms[0m
+2022.12.22 15:21:52 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:21:52 INFO  time: compiled bomberman in 70ms[0m
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 331, 331, 338)
+2022.12.22 15:22:19 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:22:19 INFO  time: compiled bomberman in 82ms[0m
+2022.12.22 15:22:24 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:22:24 INFO  time: compiled bomberman in 0.61s[0m
+Dec 22, 2022 3:22:35 PM scala.meta.internal.pc.MetalsGlobal inverseSemanticdbSymbols
+SEVERE: invalid SemanticDB symbol: _empty_/Main.board.
+illegal cyclic reference involving object Main
+2022.12.22 15:24:38 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:24:38 INFO  time: compiled bomberman in 0.58s[0m
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 1318, 1318, 1357)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 1318, 1318, 1333)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 1318, 1318, 1326)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 1318, 1318, 1327)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[Int]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 1318, 1318, 1328)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[Int]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 1318, 1318, 1328)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[Int]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 1318, 1318, 1328)
+2022.12.22 15:25:30 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:25:30 INFO  time: compiled bomberman in 0.67s[0m
+Dec 22, 2022 3:26:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3463
+2022.12.22 15:27:09 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:27:09 INFO  time: compiled bomberman in 0.63s[0m
+2022.12.22 15:27:11 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:27:11 INFO  time: compiled bomberman in 0.22s[0m
+2022.12.22 15:27:46 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:27:46 INFO  time: compiled bomberman in 0.52s[0m
+Dec 22, 2022 3:28:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 22, 2022 3:28:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 308, 308, 1681)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 308, 308, 323)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 308, 308, 316)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 308, 308, 317)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 308, 308, 319)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 308, 308, 320)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 314, 314, 1688)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 314, 314, 329)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 314, 314, 322)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 314, 314, 323)
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[Int]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 314, 314, 324)
+2022.12.22 15:28:16 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:28:16 INFO  time: compiled bomberman in 0.54s[0m
+2022.12.22 15:29:14 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:29:14 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:29:14 INFO  time: compiled bomberman in 0.52s[0m
+2022.12.22 15:29:28 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:29:28 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:29:28 INFO  time: compiled bomberman in 0.54s[0m
+2022.12.22 15:30:01 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:30:01 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:30:01 INFO  time: compiled bomberman in 0.57s[0m
+2022.12.22 15:30:18 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:30:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:30:18 INFO  time: compiled bomberman in 0.63s[0m
+2022.12.22 15:31:13 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:31:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:31:13 INFO  time: compiled bomberman in 0.58s[0m
+Dec 22, 2022 3:31:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4278
+2022.12.22 15:31:25 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:31:25 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:31:25 INFO  time: compiled bomberman in 0.56s[0m
+2022.12.22 15:31:42 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:31:42 INFO  time: compiled bomberman in 87ms[0m
+2022.12.22 15:31:47 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:31:47 INFO  time: compiled bomberman in 78ms[0m
+2022.12.22 15:31:54 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:31:54 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:31:54 INFO  time: compiled bomberman in 0.61s[0m
+2022.12.22 15:32:28 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:32:28 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:32:28 INFO  time: compiled bomberman in 0.57s[0m
+2022.12.22 15:32:48 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:32:48 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:32:48 INFO  time: compiled bomberman in 0.58s[0m
+2022.12.22 15:33:02 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:33:02 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:33:02 INFO  time: compiled bomberman in 0.52s[0m
+2022.12.22 15:33:16 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:33:16 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:33:16 INFO  time: compiled bomberman in 0.49s[0m
+2022.12.22 15:33:26 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:33:26 INFO  time: compiled bomberman in 35ms[0m
+2022.12.22 15:33:27 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:33:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:33:27 INFO  time: compiled bomberman in 0.53s[0m
+2022.12.22 15:34:18 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:34:18 INFO  time: compiled bomberman in 77ms[0m
+2022.12.22 15:34:23 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:34:23 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:34:23 INFO  time: compiled bomberman in 0.7s[0m
+2022.12.22 15:34:38 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:34:38 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:34:38 INFO  time: compiled bomberman in 0.48s[0m
+2022.12.22 15:35:00 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:35:00 INFO  time: compiled bomberman in 35ms[0m
+2022.12.22 15:35:05 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:35:05 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:35:05 INFO  time: compiled bomberman in 0.5s[0m
+2022.12.22 15:35:06 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:35:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:35:06 INFO  time: compiled bomberman in 0.15s[0m
+2022.12.22 15:35:06 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:35:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:35:07 INFO  time: compiled bomberman in 0.16s[0m
+2022.12.22 15:35:15 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:35:15 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:35:15 INFO  time: compiled bomberman in 0.52s[0m
+2022.12.22 15:35:22 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:35:22 INFO  time: compiled bomberman in 73ms[0m
+2022.12.22 15:35:22 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:35:23 INFO  time: compiled bomberman in 55ms[0m
+2022.12.22 15:35:23 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:35:23 INFO  time: compiled bomberman in 58ms[0m
+2022.12.22 15:35:24 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:35:24 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:35:24 INFO  time: compiled bomberman in 0.47s[0m
+2022.12.22 15:37:14 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:37:14 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:37:14 INFO  time: compiled bomberman in 0.51s[0m
+2022.12.22 15:37:19 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:37:19 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:37:19 INFO  time: compiled bomberman in 0.49s[0m
+2022.12.22 15:37:36 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:37:36 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:37:36 INFO  time: compiled bomberman in 0.47s[0m
+2022.12.22 15:38:12 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:38:12 INFO  time: compiled bomberman in 32ms[0m
+2022.12.22 15:38:24 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:38:24 INFO  time: compiled bomberman in 42ms[0m
+2022.12.22 15:38:46 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:38:46 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:38:46 INFO  time: compiled bomberman in 0.5s[0m
+Dec 22, 2022 3:39:19 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 22, 2022 3:39:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.22 15:39:44 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:39:44 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:44 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:44 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:44 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:44 INFO  time: compiled bomberman in 36ms[0m
+2022.12.22 15:39:44 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:46 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:47 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:50 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:50 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:50 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:52 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:53 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:54 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:54 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:56 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:56 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:57 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:59 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:39:59 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:00 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:01 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:01 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:03 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:03 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:03 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:06 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:06 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:09 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:09 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:10 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:11 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:21 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:23 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[Int]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 873, 873, 882)
+2022.12.22 15:40:23 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:24 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:27 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:40:27 INFO  time: compiled bomberman in 34ms[0m
+2022.12.22 15:40:27 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:44 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:44 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:45 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:46 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:48 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:49 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:51 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:52 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:53 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:53 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:54 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:56 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:56 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:57 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:40:59 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:04 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:04 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:04 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:41:04 INFO  time: compiled bomberman in 32ms[0m
+2022.12.22 15:41:05 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:07 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:07 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:41:07 INFO  time: compiled bomberman in 59ms[0m
+2022.12.22 15:41:07 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:14 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:15 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:15 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:41:15 INFO  time: compiled bomberman in 51ms[0m
+2022.12.22 15:41:16 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:34 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:35 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:36 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2022.12.22 15:41:37 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:41:37 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:41:37 INFO  time: compiled bomberman in 0.5s[0m
+2022.12.22 15:42:58 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:42:58 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:42:58 INFO  time: compiled bomberman in 0.51s[0m
+2022.12.22 15:43:26 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:43:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:43:26 INFO  time: compiled bomberman in 0.52s[0m
+2022.12.22 15:44:23 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:44:23 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:44:23 INFO  time: compiled bomberman in 0.58s[0m
+2022.12.22 15:46:12 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:46:12 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:46:12 INFO  time: compiled bomberman in 0.54s[0m
+2022.12.22 15:46:13 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:46:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:46:13 INFO  time: compiled bomberman in 0.18s[0m
+2022.12.22 15:46:17 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:46:17 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:46:17 INFO  time: compiled bomberman in 0.57s[0m
+2022.12.22 15:47:36 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:47:36 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:47:36 INFO  time: compiled bomberman in 0.57s[0m
+Dec 22, 2022 3:47:52 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 22, 2022 3:47:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Dec 22, 2022 3:47:52 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 22, 2022 3:47:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2022.12.22 15:48:28 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:48:28 INFO  time: compiled bomberman in 76ms[0m
+2022.12.22 15:48:31 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:48:31 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:48:31 INFO  time: compiled bomberman in 0.55s[0m
+2022.12.22 15:48:35 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:48:35 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:48:35 INFO  time: compiled bomberman in 0.54s[0m
+2022.12.22 15:48:40 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:48:40 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:48:40 INFO  time: compiled bomberman in 0.57s[0m
+Dec 22, 2022 3:48:45 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 22, 2022 3:48:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2022.12.22 15:48:49 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:48:49 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:48:49 INFO  time: compiled bomberman in 0.58s[0m
+2022.12.22 15:49:19 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:49:19 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:49:19 INFO  time: compiled bomberman in 0.51s[0m
+2022.12.22 15:49:32 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:49:32 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:49:32 INFO  time: compiled bomberman in 0.74s[0m
+2022.12.22 15:49:38 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:49:38 INFO  time: compiled bomberman in 67ms[0m
+2022.12.22 15:49:41 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:49:41 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:49:41 INFO  time: compiled bomberman in 0.56s[0m
+2022.12.22 15:49:54 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:49:54 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:49:54 INFO  time: compiled bomberman in 0.56s[0m
+2022.12.22 15:50:06 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:50:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:50:06 INFO  time: compiled bomberman in 0.56s[0m
+2022.12.22 15:50:21 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:50:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:50:21 INFO  time: compiled bomberman in 0.53s[0m
+2022.12.22 15:50:57 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:50:57 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:50:57 INFO  time: compiled bomberman in 0.54s[0m
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 296, 296, 303)
+Dec 22, 2022 3:52:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7501
+2022.12.22 15:52:21 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:52:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2022.12.22 15:52:21 INFO  time: compiled bomberman in 0.52s[0m
+something's wrong: no file:///home/marttave/projects/bomberman/src/main/scala/Main.scala in Array[<error>]RangePosition(file:///home/marttave/projects/bomberman/src/main/scala/Main.scala, 277, 277, 284)
+2022.12.22 15:53:10 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:53:10 INFO  time: compiled bomberman in 59ms[0m
+2022.12.22 15:53:18 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:53:18 INFO  time: compiled bomberman in 86ms[0m
+2022.12.22 15:53:32 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:53:32 INFO  time: compiled bomberman in 70ms[0m
+Dec 22, 2022 3:55:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7811
+2022.12.22 15:55:37 INFO  compiling bomberman (1 scala source)[0m
+2022.12.22 15:55:37 INFO  shutting down Metals[0m
+2022.12.22 15:55:37 INFO  Shut down connection with build server.[0m
+Dec 22, 2022 3:55:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:258)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2022.12.22 15:55:37 INFO  Shut down connection with build server.[0m
+2022.12.22 15:55:37 INFO  Cancelling compilation on Bloop server[0m
+2022.12.22 15:55:37 ERROR Unexpected error initializing serverorg.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+2022.12.22 15:55:47 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/lsp.trace.json or /home/marttave/.cache/metals/lsp.trace.json
+2022.12.22 15:55:47 INFO  logging to file /home/marttave/projects/bomberman/.metals/metals.log
+2022.12.22 15:55:47 INFO  Started: Metals version 0.11.9 in workspace '/home/marttave/projects/bomberman' for client Visual Studio Code 1.74.2.
+2022.12.22 15:55:47 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(11), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)
+2022.12.22 15:55:48 INFO  time: initialize in 0.71s
+2022.12.22 15:55:50 INFO  Attempting to connect to the build server...
+2022.12.22 15:55:50 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/marttave/.bloop/bloop.json
+2022.12.22 15:55:50 INFO  skipping build import with status 'Installed'
+2022.12.22 15:55:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/bsp.trace.json or /home/marttave/.cache/metals/bsp.trace.json
+2022.12.22 15:55:50 INFO  Attempting to connect to the build server...
+2022.12.22 15:55:50 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/marttave/.bloop/bloop.json
+2022.12.22 15:55:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/project/.metals/bsp.trace.json or /home/marttave/.cache/metals/bsp.trace.json
+2022.12.22 15:55:50 INFO  time: Connected to build server in 0.45s
+2022.12.22 15:55:50 INFO  Connected to Build server: Bloop v1.5.4
+Dec 22, 2022 3:55:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Dec 22, 2022 3:55:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Dec 22, 2022 3:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Dec 22, 2022 3:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Dec 22, 2022 3:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Dec 22, 2022 3:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2022.12.22 15:55:53 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:55:53 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.22 15:55:53 INFO  time: compiled bomberman in 0.94s
+2022.12.22 15:55:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.12.22 15:55:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.12.22 15:55:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2022.12.22 15:55:55 INFO  time: indexed workspace in 4.21s
+2022.12.22 15:56:31 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:56:31 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.22 15:56:31 INFO  time: compiled bomberman in 0.73s
+2022.12.22 15:56:48 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:56:48 INFO  time: compiled bomberman in 0.11s
+2022.12.22 15:56:51 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:56:51 INFO  time: compiled bomberman in 77ms
+2022.12.22 15:57:12 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:57:12 INFO  time: compiled bomberman in 72ms
+2022.12.22 15:57:13 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:57:13 INFO  time: compiled bomberman in 84ms
+2022.12.22 15:57:36 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:57:36 INFO  time: compiled bomberman in 73ms
+2022.12.22 15:57:50 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:57:50 INFO  time: compiled bomberman in 65ms
+2022.12.22 15:57:55 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:57:55 INFO  time: compiled bomberman in 69ms
+Dec 22, 2022 3:57:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 377
+2022.12.22 15:58:01 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:58:01 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.22 15:58:01 INFO  time: compiled bomberman in 0.56s
+Dec 22, 2022 3:58:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: -1 is out of bounds (min 0, max 2)
+java.lang.IndexOutOfBoundsException: -1 is out of bounds (min 0, max 2)
+	at scala.collection.mutable.ArrayBuffer.apply(ArrayBuffer.scala:98)
+	at scala.reflect.internal.Types$Type.findMemberInternal$1(Types.scala:1030)
+	at scala.reflect.internal.Types$Type.findMember(Types.scala:1035)
+	at scala.reflect.internal.Types$Type.memberBasedOnName(Types.scala:661)
+	at scala.reflect.internal.Types$Type.nonLocalMember(Types.scala:652)
+	at scala.tools.nsc.typechecker.Contexts$ImportInfo.importedSelectedSymbol(Contexts.scala:1842)
+	at scala.tools.nsc.typechecker.Contexts$SymbolLookup.apply(Contexts.scala:1477)
+	at scala.tools.nsc.typechecker.Contexts$Context.lookupSymbol(Contexts.scala:1283)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedIdent$2(Typers.scala:5470)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedIdentOrWildcard$1(Typers.scala:5522)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5983)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTypeConstructor(Typers.scala:6251)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTypeConstructor(Typers.scala:6268)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedParentType(Typers.scala:1580)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedParentTypes(Typers.scala:1745)
+	at scala.tools.nsc.typechecker.Namers$Namer.templateSig(Namers.scala:1163)
+	at scala.tools.nsc.typechecker.Namers$Namer.moduleSig(Namers.scala:1269)
+	at scala.tools.nsc.typechecker.Namers$Namer.memberSig(Namers.scala:1933)
+	at scala.tools.nsc.typechecker.Namers$Namer.typeSig(Namers.scala:1880)
+	at scala.tools.nsc.typechecker.Namers$Namer$MonoTypeCompleter.completeImpl(Namers.scala:874)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete(Namers.scala:2078)
+	at scala.tools.nsc.typechecker.Namers$LockingTypeCompleter.complete$(Namers.scala:2076)
+	at scala.tools.nsc.typechecker.Namers$TypeCompleterBase.complete(Namers.scala:2071)
+	at scala.reflect.internal.Symbols$Symbol.completeInfo(Symbols.scala:1561)
+	at scala.reflect.internal.Symbols$Symbol.info(Symbols.scala:1533)
+	at scala.reflect.internal.Symbols$Symbol.initialize(Symbols.scala:1722)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5625)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1349)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1342)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1212)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:439)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+2022.12.22 15:58:09 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:58:09 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.22 15:58:09 INFO  time: compiled bomberman in 0.53s
+2022.12.22 15:58:42 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:58:42 INFO  time: compiled bomberman in 60ms
+2022.12.22 15:58:45 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:58:45 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.22 15:58:45 INFO  time: compiled bomberman in 0.61s
+2022.12.22 15:59:02 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:59:02 INFO  time: compiled bomberman in 59ms
+2022.12.22 15:59:33 INFO  compiling bomberman (1 scala source)
+2022.12.22 15:59:33 INFO  time: compiled bomberman in 46ms
+2022.12.22 16:00:29 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:00:29 INFO  time: compiled bomberman in 93ms
+2022.12.22 16:00:33 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:00:33 INFO  time: compiled bomberman in 58ms
+2022.12.22 16:00:46 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:00:46 INFO  time: compiled bomberman in 68ms
+2022.12.22 16:00:49 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:00:49 INFO  time: compiled bomberman in 66ms
+2022.12.22 16:00:55 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:00:55 INFO  time: compiled bomberman in 67ms
+2022.12.22 16:01:11 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:01:11 INFO  time: compiled bomberman in 69ms
+2022.12.22 16:01:21 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:01:21 INFO  time: compiled bomberman in 58ms
+2022.12.22 16:04:06 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:04:06 INFO  time: compiled bomberman in 35ms
+2022.12.22 16:04:08 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:04:08 INFO  time: compiled bomberman in 48ms
+2022.12.22 16:04:50 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:04:50 INFO  time: compiled bomberman in 32ms
+2022.12.22 16:04:51 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:04:51 INFO  time: compiled bomberman in 35ms
+2022.12.22 16:04:55 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:04:55 INFO  time: compiled bomberman in 32ms
+2022.12.22 16:05:02 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:05:02 INFO  time: compiled bomberman in 88ms
+2022.12.22 16:05:08 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:05:08 INFO  time: compiled bomberman in 36ms
+2022.12.22 16:05:13 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:05:13 INFO  time: compiled bomberman in 34ms
+2022.12.22 16:05:55 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:05:55 INFO  time: compiled bomberman in 31ms
+2022.12.22 16:06:54 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:06:54 INFO  time: compiled bomberman in 34ms
+2022.12.22 16:06:56 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:06:56 INFO  time: compiled bomberman in 35ms
+2022.12.22 16:07:05 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:07:05 INFO  time: compiled bomberman in 66ms
+2022.12.22 16:07:10 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:07:10 INFO  time: compiled bomberman in 76ms
+2022.12.22 16:07:14 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:07:14 INFO  time: compiled bomberman in 67ms
+2022.12.22 16:07:32 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:07:32 INFO  time: compiled bomberman in 68ms
+2022.12.22 16:07:45 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:07:45 INFO  time: compiled bomberman in 92ms
+2022.12.22 16:07:49 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:07:49 INFO  time: compiled bomberman in 71ms
+2022.12.22 16:08:14 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:08:14 INFO  time: compiled bomberman in 61ms
+2022.12.22 16:09:30 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:09:30 INFO  time: compiled bomberman in 63ms
+2022.12.22 16:09:43 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:09:43 INFO  time: compiled bomberman in 72ms
+2022.12.22 16:09:50 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:09:50 INFO  time: compiled bomberman in 60ms
+2022.12.22 16:09:57 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:09:57 INFO  time: compiled bomberman in 67ms
+2022.12.22 16:10:06 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:10:06 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.22 16:10:06 INFO  time: compiled bomberman in 0.59s
+2022.12.22 16:10:18 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:10:18 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.22 16:10:18 INFO  time: compiled bomberman in 0.57s
+2022.12.22 16:12:03 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:12:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.22 16:12:03 INFO  time: compiled bomberman in 0.53s
+2022.12.22 16:13:21 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:13:21 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.22 16:13:21 INFO  time: compiled bomberman in 0.57s
+2022.12.22 16:14:17 INFO  compiling bomberman (1 scala source)
+2022.12.22 16:14:17 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.22 16:14:17 INFO  time: compiled bomberman in 0.57s
+Dec 22, 2022 4:14:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
