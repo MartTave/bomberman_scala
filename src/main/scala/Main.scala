@@ -140,8 +140,15 @@ object Main extends App {
         // checking indexes
         if(verticalStart < 0) {
             verticalStart = 0
-        } else if (verticalStart > board.length) {
-            
+        }
+        if (verticalEnd >= board.length) {
+            verticalEnd = board.length - 1
+        }
+        if(horizontalStart < 0) {
+            horizontalStart = 0
+        }
+        if (horizontalEnd >= board(bomb.i).length) {
+            horizontalEnd = board(bomb.i).length - 1
         }
     }
 }
