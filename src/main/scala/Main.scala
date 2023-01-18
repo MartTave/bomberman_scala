@@ -6,6 +6,7 @@ import scala.collection.mutable.ListBuffer
 import scala.util.Random
 import scala.collection.immutable
 import com.sourcegraph.semanticdb_javac.Semanticdb.Constant
+import hevs.graphics.utils.GraphicsBitmap
 
 
 object Timer {
@@ -31,7 +32,7 @@ object Main extends App {
     object ObjectsColor {
         val Empty = Color.white
         val Wall = Color.black
-        val Bomb = Color.gray
+        val Bomb = Color.ORANGE
         val BombNbrUp = Color.green
         val BombPowerUp = Color.pink
         val DestructibleWall = Color.lightGray
@@ -58,6 +59,7 @@ object Main extends App {
         val Display: FunGraphics = FunGraphics(this.DisplaySize, this.DisplaySize)
         val PowerUpSize = this.ElementSize / 2
         val ChanceForDestructibleWallGeneration = 1.5
+        val PowerUpOnBlockDestructionChance = 5
     }
 
     class Player(playerName: String, playerColor: Color) {
@@ -144,6 +146,12 @@ object Main extends App {
 
         def tick(): Unit = {
             this.lifePoint -= 1
+            if(this.lifePoint > 0) {
+                Timer(100, false) {
+                    printCircle(this.i, this.j, Color.yellow, Constants.ElementSize)
+                }
+            }
+            printCell(i, j)
         }
 
         def explode(): Unit = {
@@ -360,6 +368,13 @@ object Main extends App {
                 return true
             } else if (currentCase == CaseState.DestructibleWall) {
                 board(i)(j) = CaseState.Empty
+                if(Math.random() * Constants.PowerUpOnBlockDestructionChance > Constants.PowerUpOnBlockDestructionChance - 1) {
+                    if(Math.random() * 2 > 1) {
+                        board(i)(j) = CaseState.BombMaxPowerUp
+                    } else {
+                        board(i)(j) = CaseState.BombPowerPowerUp
+                    }
+                }
                 printRect(i, j, ObjectsColor.Explosion)
                 cellsToRefresh.addOne(Array[Int](i, j))
                 return true
@@ -505,11 +520,11 @@ object Main extends App {
             Constants.Display.setPixel(i, j, color)
         }
     }
-    def printCircle(i: Int, j: Int, color: Color) = {
-        val x = j * Constants.ElementSize + (Constants.ElementSize / 2) - Constants.PowerUpSize / 2
-        val y = i * Constants.ElementSize + (Constants.ElementSize / 2) - Constants.PowerUpSize / 2
+    def printCircle(i: Int, j: Int, color: Color, size: Int = Constants.PowerUpSize) = {
+        val x = j * Constants.ElementSize + (Constants.ElementSize / 2) - size / 2
+        val y = i * Constants.ElementSize + (Constants.ElementSize / 2) - size / 2
         Constants.Display.setColor(color)
-        Constants.Display.drawFilledCircle(x, y, Constants.PowerUpSize)
+        Constants.Display.drawFilledCircle(x, y, size)
     }
     def printCell(i: Int, j: Int) = {
         var cCase = board(i)(j)
@@ -544,7 +559,8 @@ object Main extends App {
         printRect(i, j, ObjectsColor.Empty)
     }
     def printBomb(i: Int, j: Int) = {
-        printRect(i, j, ObjectsColor.Bomb)
+        printRect(i, j, ObjectsColor.Empty)
+        printCircle(i, j, ObjectsColor.Bomb, Constants.ElementSize)
     }
     def printMaxBombUp(i: Int, j: Int) = {
         printRect(i, j, ObjectsColor.Empty)
@@ -660,4 +676,5 @@ object Main extends App {
         doGameplayTick()
     }
     start()
+    //Constants.Display.drawTransformedPicture(0, 0, 0, 1, "../../../brickwall.jpg")
 }

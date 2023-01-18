@@ -8225,3 +8225,476 @@ WARNING: Unmatched cancel notification for request id 26435
 2023.01.18 15:01:19 INFO  compiling bomberman (1 scala source)[0m
 2023.01.18 15:01:19 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
 2023.01.18 15:01:19 INFO  time: compiled bomberman in 0.94s[0m
+2023.01.18 15:02:00 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 34m 39.533s)[0m
+2023.01.18 15:02:00 INFO  Configured debugger context in 119 milliseconds[0m
+2023.01.18 15:02:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:02:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:02:01 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:02:00 INFO  Trying to attach to remote debuggee VM localhost:54915 .[0m
+2023.01.18 15:02:00 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:05:22 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:05:22 INFO  time: compiled bomberman in 0.12s[0m
+2023.01.18 15:05:59 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:06:00 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:06:00 INFO  time: compiled bomberman in 1.18s[0m
+2023.01.18 15:06:31 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:06:31 INFO  Closing debug server tcp://0.0.0.0:41061[0m
+2023.01.18 15:06:51 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:06:52 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:06:52 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:06:51 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 39m 31.192s)[0m
+2023.01.18 15:06:51 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:06:52 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:06:53 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:06:53 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:06:53 INFO  time: compiled bomberman in 0.83s[0m
+2023.01.18 15:06:53 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 39m 32.03s)[0m
+2023.01.18 15:06:53 INFO  Configured debugger context in 111 milliseconds[0m
+2023.01.18 15:06:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:06:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:06:53 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:06:53 INFO  Trying to attach to remote debuggee VM localhost:38085 .[0m
+2023.01.18 15:06:53 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:06:54 ERROR java.lang.IllegalArgumentException: input == null![0m
+2023.01.18 15:06:54 ERROR 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1400)[0m
+2023.01.18 15:06:54 ERROR 	at hevs.graphics.utils.GraphicsBitmap.<init>(GraphicsBitmap.scala:26)[0m
+2023.01.18 15:06:54 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:664)[0m
+2023.01.18 15:06:54 ERROR 	at Main$delayedInit$body.apply(Main.scala:23)[0m
+2023.01.18 15:06:54 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+2023.01.18 15:06:54 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+2023.01.18 15:06:54 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+2023.01.18 15:06:54 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)[0m
+2023.01.18 15:06:54 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)[0m
+2023.01.18 15:06:54 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)[0m
+2023.01.18 15:06:54 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)[0m
+2023.01.18 15:06:54 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)[0m
+2023.01.18 15:06:54 ERROR 	at scala.App.main(App.scala:76)[0m
+2023.01.18 15:06:54 ERROR 	at scala.App.main$(App.scala:74)[0m
+2023.01.18 15:06:54 ERROR 	at Main$.main(Main.scala:23)[0m
+2023.01.18 15:06:54 ERROR 	at Main.main(Main.scala)[0m
+2023.01.18 15:06:54 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:06:54 INFO  Closing debug server tcp://0.0.0.0:46129[0m
+2023.01.18 15:07:11 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:07:12 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:07:12 INFO  time: compiled bomberman in 1.07s[0m
+2023.01.18 15:07:16 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:07:16 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:07:17 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:07:16 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 39m 56.132s)[0m
+2023.01.18 15:07:16 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:07:16 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:07:17 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:07:17 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:07:17 INFO  time: compiled bomberman in 0.49s[0m
+2023.01.18 15:07:17 INFO  Configured debugger context in 119 milliseconds[0m
+2023.01.18 15:07:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:07:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:07:18 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:07:17 INFO  Trying to attach to remote debuggee VM localhost:53431 .[0m
+2023.01.18 15:07:17 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:07:19 ERROR java.lang.IllegalArgumentException: input == null![0m
+2023.01.18 15:07:19 ERROR 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1400)[0m
+2023.01.18 15:07:19 ERROR 	at hevs.graphics.utils.GraphicsBitmap.<init>(GraphicsBitmap.scala:26)[0m
+2023.01.18 15:07:19 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:664)[0m
+2023.01.18 15:07:19 ERROR 	at Main$delayedInit$body.apply(Main.scala:23)[0m
+2023.01.18 15:07:19 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+2023.01.18 15:07:19 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+2023.01.18 15:07:19 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+2023.01.18 15:07:19 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)[0m
+2023.01.18 15:07:19 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)[0m
+2023.01.18 15:07:19 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)[0m
+2023.01.18 15:07:19 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)[0m
+2023.01.18 15:07:19 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)[0m
+2023.01.18 15:07:19 ERROR 	at scala.App.main(App.scala:76)[0m
+2023.01.18 15:07:19 ERROR 	at scala.App.main$(App.scala:74)[0m
+2023.01.18 15:07:19 ERROR 	at Main$.main(Main.scala:23)[0m
+2023.01.18 15:07:19 ERROR 	at Main.main(Main.scala)[0m
+2023.01.18 15:07:19 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:07:19 INFO  Closing debug server tcp://0.0.0.0:37313[0m
+Exception in thread "pool-6-thread-43" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.01.18 15:08:27 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:08:28 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:08:28 INFO  time: compiled bomberman in 1.11s[0m
+2023.01.18 15:08:28 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:08:29 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:08:29 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:08:28 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 41m 8.58s)[0m
+2023.01.18 15:08:28 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:08:29 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:08:30 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:08:30 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:08:30 INFO  time: compiled bomberman in 0.31s[0m
+2023.01.18 15:08:30 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 41m 8.92s)[0m
+2023.01.18 15:08:30 INFO  Configured debugger context in 117 milliseconds[0m
+2023.01.18 15:08:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:08:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:08:30 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:08:30 INFO  Trying to attach to remote debuggee VM localhost:56881 .[0m
+2023.01.18 15:08:30 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:08:31 ERROR java.lang.IllegalArgumentException: input == null![0m
+2023.01.18 15:08:31 ERROR 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1400)[0m
+2023.01.18 15:08:31 ERROR 	at hevs.graphics.utils.GraphicsBitmap.<init>(GraphicsBitmap.scala:26)[0m
+2023.01.18 15:08:31 ERROR 	at hevs.graphics.FunGraphics.drawTransformedPicture(FunGraphics.scala:319)[0m
+2023.01.18 15:08:31 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:664)[0m
+2023.01.18 15:08:31 ERROR 	at Main$delayedInit$body.apply(Main.scala:23)[0m
+2023.01.18 15:08:31 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+2023.01.18 15:08:31 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+2023.01.18 15:08:31 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+2023.01.18 15:08:31 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)[0m
+2023.01.18 15:08:31 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)[0m
+2023.01.18 15:08:31 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)[0m
+2023.01.18 15:08:31 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)[0m
+2023.01.18 15:08:31 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)[0m
+2023.01.18 15:08:31 ERROR 	at scala.App.main(App.scala:76)[0m
+2023.01.18 15:08:31 ERROR 	at scala.App.main$(App.scala:74)[0m
+2023.01.18 15:08:31 ERROR 	at Main$.main(Main.scala:23)[0m
+2023.01.18 15:08:31 ERROR 	at Main.main(Main.scala)[0m
+2023.01.18 15:08:31 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:08:31 INFO  Closing debug server tcp://0.0.0.0:45299[0m
+2023.01.18 15:08:44 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 41m 22.766s)[0m
+2023.01.18 15:08:44 INFO  Configured debugger context in 119 milliseconds[0m
+2023.01.18 15:08:44 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:08:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:08:44 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:08:44 INFO  Trying to attach to remote debuggee VM localhost:50717 .[0m
+2023.01.18 15:08:44 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:08:45 ERROR java.lang.IllegalArgumentException: input == null![0m
+2023.01.18 15:08:45 ERROR 	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1400)[0m
+2023.01.18 15:08:45 ERROR 	at hevs.graphics.utils.GraphicsBitmap.<init>(GraphicsBitmap.scala:26)[0m
+2023.01.18 15:08:45 ERROR 	at hevs.graphics.FunGraphics.drawTransformedPicture(FunGraphics.scala:319)[0m
+2023.01.18 15:08:45 ERROR 	at Main$.delayedEndpoint$Main$1(Main.scala:664)[0m
+2023.01.18 15:08:45 ERROR 	at Main$delayedInit$body.apply(Main.scala:23)[0m
+2023.01.18 15:08:45 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+2023.01.18 15:08:45 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+2023.01.18 15:08:45 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+2023.01.18 15:08:45 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)[0m
+2023.01.18 15:08:45 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)[0m
+2023.01.18 15:08:45 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)[0m
+2023.01.18 15:08:45 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)[0m
+2023.01.18 15:08:45 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)[0m
+2023.01.18 15:08:45 ERROR 	at scala.App.main(App.scala:76)[0m
+2023.01.18 15:08:45 ERROR 	at scala.App.main$(App.scala:74)[0m
+2023.01.18 15:08:45 ERROR 	at Main$.main(Main.scala:23)[0m
+2023.01.18 15:08:45 ERROR 	at Main.main(Main.scala)[0m
+2023.01.18 15:08:45 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:08:45 INFO  Closing debug server tcp://0.0.0.0:33405[0m
+2023.01.18 15:11:09 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:11:09 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 43m 48.067s)[0m
+2023.01.18 15:11:09 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:11:10 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:11:10 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:11:10 INFO  time: compiled bomberman in 0.97s[0m
+2023.01.18 15:11:10 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 43m 49.045s)[0m
+2023.01.18 15:11:10 INFO  Configured debugger context in 117 milliseconds[0m
+2023.01.18 15:11:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:11:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:11:10 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:11:10 INFO  Trying to attach to remote debuggee VM localhost:39615 .[0m
+2023.01.18 15:11:10 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:19:16 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:19:16 INFO  Closing debug server tcp://0.0.0.0:39485[0m
+2023.01.18 15:19:16 INFO  Configured debugger context in 165 milliseconds[0m
+2023.01.18 15:19:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:19:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:19:17 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:19:17 INFO  Trying to attach to remote debuggee VM localhost:54733 .[0m
+2023.01.18 15:19:17 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:21:06 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:21:06 INFO  Closing debug server tcp://0.0.0.0:43387[0m
+2023.01.18 15:21:37 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:21:37 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:21:37 INFO  time: compiled bomberman in 0.97s[0m
+2023.01.18 15:24:49 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:24:49 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:24:49 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:24:49 INFO  time: compiled bomberman in 0.98s[0m
+Exception in thread "pool-6-thread-44" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.01.18 15:25:15 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:25:16 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:25:16 INFO  time: compiled bomberman in 1.02s[0m
+2023.01.18 15:25:23 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:25:24 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:25:23 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:25:23 INFO  time: compiled bomberman in 1s[0m
+2023.01.18 15:25:27 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 58m 5.823s)[0m
+2023.01.18 15:25:27 INFO  Configured debugger context in 113 milliseconds[0m
+2023.01.18 15:25:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:25:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:25:27 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:25:27 INFO  Trying to attach to remote debuggee VM localhost:36505 .[0m
+2023.01.18 15:25:27 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:25:35 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:25:35 INFO  Closing debug server tcp://0.0.0.0:45913[0m
+2023.01.18 15:25:52 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:25:52 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 58m 32.026s)[0m
+2023.01.18 15:25:52 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:25:54 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:25:54 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:25:54 INFO  time: compiled bomberman in 0.9s[0m
+2023.01.18 15:25:54 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 58m 32.929s)[0m
+2023.01.18 15:25:54 INFO  Configured debugger context in 114 milliseconds[0m
+2023.01.18 15:25:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:25:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:25:54 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:25:54 INFO  Trying to attach to remote debuggee VM localhost:41243 .[0m
+2023.01.18 15:25:54 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:26:01 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:26:01 INFO  Closing debug server tcp://0.0.0.0:38497[0m
+2023.01.18 15:26:17 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:26:17 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:26:18 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:26:17 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 58m 56.87s)[0m
+2023.01.18 15:26:17 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:26:18 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:26:18 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:26:18 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:26:18 INFO  time: compiled bomberman in 0.41s[0m
+2023.01.18 15:26:18 INFO  Configured debugger context in 118 milliseconds[0m
+2023.01.18 15:26:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:26:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:26:18 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:26:18 INFO  Trying to attach to remote debuggee VM localhost:52631 .[0m
+2023.01.18 15:26:18 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:26:30 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:26:30 INFO  Closing debug server tcp://0.0.0.0:33049[0m
+2023.01.18 15:26:51 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:26:52 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:26:52 INFO  time: compiled bomberman in 1.12s[0m
+2023.01.18 15:26:53 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:26:53 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:26:53 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:26:53 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:26:54 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:26:54 INFO  time: compiled bomberman in 1.07s[0m
+2023.01.18 15:27:01 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:27:02 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:27:02 INFO  time: compiled bomberman in 1.3s[0m
+2023.01.18 15:27:03 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:27:03 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:27:02 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:27:03 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:27:03 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:27:02 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 4h 59m 42.288s)[0m
+2023.01.18 15:27:02 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:27:02 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:27:02 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:27:02 INFO  time: compiled bomberman in 0.12s[0m
+2023.01.18 15:27:03 INFO  Configured debugger context in 177 milliseconds[0m
+2023.01.18 15:27:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:27:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:27:04 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:27:03 INFO  Trying to attach to remote debuggee VM localhost:49827 .[0m
+2023.01.18 15:27:03 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:27:32 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:27:32 INFO  Closing debug server tcp://0.0.0.0:38799[0m
+Jan 18, 2023 3:27:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28012
+2023.01.18 15:27:49 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:27:50 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:27:50 INFO  time: compiled bomberman in 1.14s[0m
+2023.01.18 15:28:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:02 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:28:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:03 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:28:03 INFO  time: compiled bomberman in 1.06s[0m
+Jan 18, 2023 3:28:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28111
+2023.01.18 15:28:08 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:28:08 INFO  time: compiled bomberman in 97ms[0m
+2023.01.18 15:28:16 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:28:16 INFO  time: compiled bomberman in 46ms[0m
+2023.01.18 15:28:18 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:28:19 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:28:19 INFO  time: compiled bomberman in 1.05s[0m
+2023.01.18 15:28:30 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:28:30 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:31 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:28:31 INFO  time: compiled bomberman in 1.05s[0m
+2023.01.18 15:28:37 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:28:37 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 1m 16.773s)[0m
+2023.01.18 15:28:37 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:28:38 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:28:38 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:28:38 INFO  time: compiled bomberman in 0.44s[0m
+2023.01.18 15:28:38 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 1m 17.215s)[0m
+2023.01.18 15:28:38 INFO  Configured debugger context in 106 milliseconds[0m
+2023.01.18 15:28:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:28:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:28:38 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:28:38 INFO  Trying to attach to remote debuggee VM localhost:52897 .[0m
+2023.01.18 15:28:38 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:28:44 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:28:44 INFO  Closing debug server tcp://0.0.0.0:45009[0m
+2023.01.18 15:28:54 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:28:54 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:54 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:54 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 1m 33.442s)[0m
+2023.01.18 15:28:54 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:28:54 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:28:55 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:28:55 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:28:55 INFO  time: compiled bomberman in 0.63s[0m
+2023.01.18 15:28:55 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 1m 34.075s)[0m
+2023.01.18 15:28:55 INFO  Configured debugger context in 108 milliseconds[0m
+2023.01.18 15:28:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:28:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:28:54 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:28:55 INFO  Trying to attach to remote debuggee VM localhost:44067 .[0m
+2023.01.18 15:28:55 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:29:39 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:29:39 INFO  Closing debug server tcp://0.0.0.0:45109[0m
+2023.01.18 15:30:02 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:30:02 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 2m 41.061s)[0m
+2023.01.18 15:30:02 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:30:02 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:30:02 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:30:02 INFO  time: compiled bomberman in 0.96s[0m
+2023.01.18 15:30:26 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:30:26 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:30:26 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:30:26 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:30:26 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:30:26 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:30:27 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:30:27 INFO  time: compiled bomberman in 1.03s[0m
+2023.01.18 15:30:33 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:30:34 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:30:34 INFO  time: compiled bomberman in 1.03s[0m
+Jan 18, 2023 3:30:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28528
+2023.01.18 15:31:22 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:31:22 INFO  time: compiled bomberman in 0.12s[0m
+2023.01.18 15:31:22 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:31:24 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:31:27 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:31:27 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:31:27 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:31:28 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:31:28 INFO  time: compiled bomberman in 1.09s[0m
+2023.01.18 15:31:49 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:31:50 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:31:50 INFO  time: compiled bomberman in 1.23s[0m
+Jan 18, 2023 3:31:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28696
+2023.01.18 15:32:04 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:32:04 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:32:05 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:32:05 INFO  time: compiled bomberman in 1.18s[0m
+Exception in thread "pool-6-thread-45" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023.01.18 15:32:29 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:32:30 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:32:30 INFO  time: compiled bomberman in 1.14s[0m
+2023.01.18 15:32:34 INFO  Configured debugger context in 117 milliseconds[0m
+2023.01.18 15:32:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:32:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:32:34 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:32:34 INFO  Trying to attach to remote debuggee VM localhost:56165 .[0m
+2023.01.18 15:32:34 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:33:08 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:33:08 INFO  Closing debug server tcp://0.0.0.0:42633[0m
+2023.01.18 15:35:56 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 8m 34.826s)[0m
+2023.01.18 15:35:56 INFO  Configured debugger context in 120 milliseconds[0m
+2023.01.18 15:35:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:35:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:35:56 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:35:56 INFO  Trying to attach to remote debuggee VM localhost:34753 .[0m
+2023.01.18 15:35:56 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:36:38 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:36:38 INFO  Closing debug server tcp://0.0.0.0:33953[0m
+2023.01.18 15:36:54 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:36:54 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 9m 33.266s)[0m
+2023.01.18 15:36:54 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:36:55 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:36:55 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:36:55 INFO  time: compiled bomberman in 0.72s[0m
+2023.01.18 15:36:55 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 9m 33.993s)[0m
+2023.01.18 15:36:55 INFO  Configured debugger context in 108 milliseconds[0m
+2023.01.18 15:36:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:36:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:36:55 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:36:55 INFO  Trying to attach to remote debuggee VM localhost:47785 .[0m
+2023.01.18 15:36:55 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:36:59 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:36:59 INFO  Closing debug server tcp://0.0.0.0:43251[0m
+2023.01.18 15:37:02 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:37:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:37:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:37:02 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 9m 41.536s)[0m
+2023.01.18 15:37:02 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:37:02 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:37:03 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:37:03 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:37:03 INFO  time: compiled bomberman in 0.74s[0m
+2023.01.18 15:37:03 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 9m 42.282s)[0m
+2023.01.18 15:37:03 INFO  Configured debugger context in 111 milliseconds[0m
+2023.01.18 15:37:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:37:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:37:03 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:37:03 INFO  Trying to attach to remote debuggee VM localhost:55351 .[0m
+2023.01.18 15:37:03 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:37:06 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:37:06 INFO  Closing debug server tcp://0.0.0.0:35703[0m
+2023.01.18 15:37:10 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:37:11 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:37:11 INFO  time: compiled bomberman in 1.2s[0m
+2023.01.18 15:37:18 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:37:18 WARN  Could not load snapshot text for /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+2023.01.18 15:37:19 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:37:19 INFO  time: compiled bomberman in 1.25s[0m
+2023.01.18 15:38:30 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 11m 8.934s)[0m
+2023.01.18 15:38:30 INFO  Configured debugger context in 117 milliseconds[0m
+2023.01.18 15:38:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:38:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:38:30 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:38:30 INFO  Trying to attach to remote debuggee VM localhost:39703 .[0m
+2023.01.18 15:38:30 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:39:20 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:39:20 INFO  Closing debug server tcp://0.0.0.0:35027[0m
+2023.01.18 15:39:44 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 12m 23.565s)[0m
+2023.01.18 15:39:44 INFO  Configured debugger context in 160 milliseconds[0m
+2023.01.18 15:39:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:39:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:39:45 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:39:44 INFO  Trying to attach to remote debuggee VM localhost:35329 .[0m
+2023.01.18 15:39:44 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:40:24 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:40:24 INFO  Closing debug server tcp://0.0.0.0:37165[0m
+2023.01.18 15:41:15 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:41:15 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 13m 54.99s)[0m
+2023.01.18 15:41:15 INFO  compiling bomberman (1 scala source)[0m
+2023.01.18 15:41:17 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:41:17 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.18 15:41:17 INFO  time: compiled bomberman in 0.89s[0m
+2023.01.18 15:41:17 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 5h 13m 55.894s)[0m
+2023.01.18 15:41:17 INFO  Configured debugger context in 131 milliseconds[0m
+2023.01.18 15:41:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.18 15:41:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.18 15:41:17 INFO  Starting debug proxy for [Main][0m
+2023.01.18 15:41:17 INFO  Trying to attach to remote debuggee VM localhost:32875 .[0m
+2023.01.18 15:41:17 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.18 15:42:12 INFO  Closing debug server tcp://0.0.0.0:39677[0m
+2023.01.18 15:42:12 INFO  Canceling debug proxy for [Main][0m
