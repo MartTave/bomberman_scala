@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/marttave/projects/bomberman/target/scala-2.13/hello-world_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Direction$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Main$Direction$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Main$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$ObjectsColor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Main$ObjectsColor$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Timer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Timer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$CaseState$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Main$CaseState$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Player.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Main$Player.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Timer$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Timer$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Timer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Timer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Bomb.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Main$Bomb.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$Constants$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/marttave/projects/bomberman/target/scala-2.13/classes/Main$Constants$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
