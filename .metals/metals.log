@@ -8698,3 +8698,230 @@ Exception in thread "pool-6-thread-45" java.lang.InterruptedException
 2023.01.18 15:41:17 INFO  Attaching to debuggee VM succeeded.[0m
 2023.01.18 15:42:12 INFO  Closing debug server tcp://0.0.0.0:39677[0m
 2023.01.18 15:42:12 INFO  Canceling debug proxy for [Main][0m
+2023.01.18 15:54:51 INFO  shutting down Metals[0m
+2023.01.18 15:54:51 INFO  Shut down connection with build server.[0m
+2023.01.18 15:54:51 INFO  Shut down connection with build server.[0m
+2023.01.19 12:59:06 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/lsp.trace.json or /home/marttave/.cache/metals/lsp.trace.json[0m
+2023.01.19 12:59:07 INFO  logging to file /home/marttave/projects/bomberman/.metals/metals.log[0m
+2023.01.19 12:59:07 INFO  Started: Metals version 0.11.10 in workspace '/home/marttave/projects/bomberman' for client Visual Studio Code 1.74.3.[0m
+2023.01.19 12:59:07 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(11), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/marttave/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.19 12:59:08 INFO  time: initialize in 1.49s[0m
+2023.01.19 12:59:12 INFO  Attempting to connect to the build server...[0m
+2023.01.19 12:59:12 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/marttave/.bloop/bloop.json[0m
+2023.01.19 12:59:12 INFO  skipping build import with status 'Installed'[0m
+Jan 19, 2023 12:59:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jan 19, 2023 12:59:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2023.01.19 12:59:13 WARN  no build target for: /home/marttave/projects/bomberman/src/main/scala/Main.scala[0m
+Jan 19, 2023 12:59:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /home/marttave/projects/bomberman/src/main/scala/Main.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /home/marttave/projects/bomberman/src/main/scala/Main.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /home/marttave/projects/bomberman/src/main/scala/Main.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:400)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.01.19 12:59:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/bsp.trace.json or /home/marttave/.cache/metals/bsp.trace.json[0m
+2023.01.19 12:59:17 INFO  Attempting to connect to the build server...[0m
+2023.01.19 12:59:17 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/marttave/.bloop/bloop.json[0m
+2023.01.19 12:59:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/project/.metals/bsp.trace.json or /home/marttave/.cache/metals/bsp.trace.json[0m
+2023.01.19 12:59:17 INFO  time: Connected to build server in 6.36s[0m
+2023.01.19 12:59:17 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.01.19 12:59:18 INFO  no build target found for /home/marttave/projects/bomberman/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.01.19 12:59:18 INFO  time: code lens generation in 5.86s[0m
+2023.01.19 12:59:19 INFO  time: Imported build in 0.26s[0m
+2023.01.19 12:59:20 INFO  no build target found for /home/marttave/projects/bomberman/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.01.19 12:59:24 INFO  time: code lens generation in 10s[0m
+2023.01.19 12:59:24 INFO  time: code lens generation in 10s[0m
+2023.01.19 12:59:24 INFO  time: code lens generation in 10s[0m
+2023.01.19 12:59:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.01.19 12:59:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.01.19 12:59:26 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.01.19 12:59:26 INFO  time: indexed workspace in 7.34s[0m
+2023.01.19 12:59:32 INFO  Configured debugger context in 643 milliseconds[0m
+2023.01.19 12:59:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.19 12:59:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.19 12:59:33 INFO  Starting debug proxy for [Main][0m
+2023.01.19 12:59:32 INFO  Trying to attach to remote debuggee VM localhost:53639 .[0m
+2023.01.19 12:59:32 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.19 13:01:00 ERROR Exception in thread "AWT-EventQueue-0" java.lang.IndexOutOfBoundsException: 1[0m
+2023.01.19 13:01:00 ERROR 	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)[0m
+2023.01.19 13:01:00 ERROR 	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)[0m
+2023.01.19 13:01:00 ERROR 	at scala.collection.mutable.ListBuffer.apply(ListBuffer.scala:60)[0m
+2023.01.19 13:01:00 ERROR 	at Main$.$anonfun$bombExplode$1(Main.scala:396)[0m
+2023.01.19 13:01:00 ERROR 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m
+2023.01.19 13:01:00 ERROR 	at Main$.checkCase$1(Main.scala:395)[0m
+2023.01.19 13:01:00 ERROR 	at Main$.$anonfun$bombExplode$4(Main.scala:427)[0m
+2023.01.19 13:01:00 ERROR 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m
+2023.01.19 13:01:00 ERROR 	at Main$.vertical$1(Main.scala:425)[0m
+2023.01.19 13:01:00 ERROR 	at Main$.bombExplode(Main.scala:438)[0m
+2023.01.19 13:01:00 ERROR 	at Main$Bomb.explode(Main.scala:167)[0m
+2023.01.19 13:01:00 ERROR 	at Main$.$anonfun$doGameplayTick$1(Main.scala:134)[0m
+2023.01.19 13:01:00 ERROR 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m
+2023.01.19 13:01:00 ERROR 	at Main$.doGameplayTick(Main.scala:131)[0m
+2023.01.19 13:01:00 ERROR 	at Main$.$anonfun$new$1(Main.scala:676)[0m
+2023.01.19 13:01:00 ERROR 	at Timer$$anon$1.actionPerformed(Main.scala:15)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:317)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:249)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)[0m
+2023.01.19 13:01:00 ERROR 	at java.base/java.security.AccessController.doPrivileged(Native Method)[0m
+2023.01.19 13:01:00 ERROR 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)[0m
+2023.01.19 13:01:00 ERROR 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)[0m
+2023.01.19 13:01:29 INFO  Canceling debug proxy for [Main][0m
+2023.01.19 13:01:29 INFO  Closing debug server tcp://0.0.0.0:41739[0m
+2023.01.19 13:01:29 INFO  shutting down Metals[0m
+2023.01.19 13:01:29 INFO  Shut down connection with build server.[0m
+2023.01.19 13:01:29 INFO  Shut down connection with build server.[0m
+2023.01.20 23:00:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/lsp.trace.json or /home/marttave/.cache/metals/lsp.trace.json[0m
+2023.01.20 23:00:56 INFO  logging to file /home/marttave/projects/bomberman/.metals/metals.log[0m
+2023.01.20 23:00:56 INFO  Started: Metals version 0.11.10 in workspace '/home/marttave/projects/bomberman' for client Visual Studio Code 1.74.3.[0m
+2023.01.20 23:00:56 WARN  Can't instantiate JavaInteractiveSemanticdb (version: JdkVersion(11), jdkHome: /usr/lib/jvm/java-11-openjdk-amd64, javac exists: false)[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/marttave/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.01.20 23:00:57 INFO  time: initialize in 1.07s[0m
+2023.01.20 23:01:00 INFO  Attempting to connect to the build server...[0m
+2023.01.20 23:01:00 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/marttave/.bloop/bloop.json[0m
+2023.01.20 23:01:01 INFO  skipping build import with status 'Installed'[0m
+Jan 20, 2023 11:01:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.01.20 23:01:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/bsp.trace.json or /home/marttave/.cache/metals/bsp.trace.json[0m
+2023.01.20 23:01:07 INFO  Attempting to connect to the build server...[0m
+2023.01.20 23:01:07 INFO  Bloop uses /usr/lib/jvm/java-11-openjdk-amd64 defined at /home/marttave/.bloop/bloop.json[0m
+2023.01.20 23:01:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/project/.metals/bsp.trace.json or /home/marttave/.cache/metals/bsp.trace.json[0m
+2023.01.20 23:01:07 INFO  time: Connected to build server in 6.84s[0m
+2023.01.20 23:01:07 INFO  Connected to Build server: Bloop v1.5.6[0m
+2023.01.20 23:01:07 INFO  no build target found for /home/marttave/projects/bomberman/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.01.20 23:01:07 INFO  time: code lens generation in 6.2s[0m
+2023.01.20 23:01:07 INFO  time: Imported build in 0.26s[0m
+2023.01.20 23:01:10 INFO  no build target found for /home/marttave/projects/bomberman/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.01.20 23:01:14 INFO  time: code lens generation in 12s[0m
+2023.01.20 23:01:14 INFO  time: code lens generation in 12s[0m
+2023.01.20 23:01:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+Jan 20, 2023 11:01:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$.<clinit>(DebugProvider.scala:869)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$1(DebugProvider.scala:324)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:325)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:406)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:2012)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2023.01.20 23:01:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.01.20 23:01:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2023.01.20 23:01:17 INFO  time: indexed workspace in 9.83s[0m
+2023.01.20 23:01:18 INFO  Deduplicating compilation of bomberman from bsp client 'Metals 0.11.10' (since 10.943s)[0m
+2023.01.20 23:01:32 INFO  Configured debugger context in 388 milliseconds[0m
+2023.01.20 23:01:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-server.trace.json or /home/marttave/.cache/metals/dap-server.trace.json[0m
+2023.01.20 23:01:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/marttave/projects/bomberman/.metals/dap-client.trace.json or /home/marttave/.cache/metals/dap-client.trace.json[0m
+2023.01.20 23:01:32 INFO  Starting debug proxy for [Main][0m
+2023.01.20 23:01:32 INFO  Trying to attach to remote debuggee VM localhost:32873 .[0m
+2023.01.20 23:01:32 INFO  Attaching to debuggee VM succeeded.[0m
+2023.01.20 23:02:53 ERROR Exception in thread "AWT-EventQueue-0" java.lang.IndexOutOfBoundsException: 1[0m
+2023.01.20 23:02:53 ERROR 	at scala.collection.LinearSeqOps.apply(LinearSeq.scala:117)[0m
+2023.01.20 23:02:53 ERROR 	at scala.collection.LinearSeqOps.apply$(LinearSeq.scala:114)[0m
+2023.01.20 23:02:53 ERROR 	at scala.collection.mutable.ListBuffer.apply(ListBuffer.scala:60)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.$anonfun$bombExplode$1(Main.scala:396)[0m
+2023.01.20 23:02:53 ERROR 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.checkCase$1(Main.scala:395)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.$anonfun$bombExplode$5(Main.scala:433)[0m
+2023.01.20 23:02:53 ERROR 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.vertical$1(Main.scala:431)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.bombExplode(Main.scala:438)[0m
+2023.01.20 23:02:53 ERROR 	at Main$Bomb.explode(Main.scala:167)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.$anonfun$bombExplode$1(Main.scala:399)[0m
+2023.01.20 23:02:53 ERROR 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.checkCase$1(Main.scala:395)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.$anonfun$bombExplode$2(Main.scala:412)[0m
+2023.01.20 23:02:53 ERROR 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.horizontal$1(Main.scala:410)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.bombExplode(Main.scala:437)[0m
+2023.01.20 23:02:53 ERROR 	at Main$Bomb.explode(Main.scala:167)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.$anonfun$doGameplayTick$1(Main.scala:134)[0m
+2023.01.20 23:02:53 ERROR 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:190)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.doGameplayTick(Main.scala:131)[0m
+2023.01.20 23:02:53 ERROR 	at Main$.$anonfun$new$1(Main.scala:676)[0m
+2023.01.20 23:02:53 ERROR 	at Timer$$anon$1.actionPerformed(Main.scala:15)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/javax.swing.Timer.fireActionPerformed(Timer.java:317)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/javax.swing.Timer$DoPostEvent.run(Timer.java:249)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)[0m
+2023.01.20 23:02:53 ERROR 	at java.base/java.security.AccessController.doPrivileged(Native Method)[0m
+2023.01.20 23:02:53 ERROR 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)[0m
+2023.01.20 23:02:53 ERROR 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)[0m
+2023.01.20 23:03:01 INFO  Canceling debug proxy for [Main][0m
+2023.01.20 23:03:01 INFO  Closing debug server tcp://0.0.0.0:42907[0m
