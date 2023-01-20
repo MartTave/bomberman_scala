@@ -8959,3 +8959,6 @@ WARNING: Unmatched cancel notification for request id 1
 2023.01.20 23:06:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
 2023.01.20 23:06:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/src.zip, /usr/lib/jvm/java-11-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
 2023.01.20 23:06:17 INFO  time: indexed workspace in 13s[0m
+2023.01.20 23:09:30 INFO  compiling bomberman (1 scala source)[0m
+2023.01.20 23:09:39 WARN  2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
+2023.01.20 23:09:39 INFO  time: compiled bomberman in 9.68s[0m

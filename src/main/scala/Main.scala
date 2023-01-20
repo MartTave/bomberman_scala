@@ -5,7 +5,6 @@ import java.awt.event.KeyEvent
 import scala.collection.mutable.ListBuffer
 import scala.util.Random
 import scala.collection.immutable
-import com.sourcegraph.semanticdb_javac.Semanticdb.Constant
 import hevs.graphics.utils.GraphicsBitmap
 
 
